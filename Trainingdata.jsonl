@@ -1,0 +1,190 @@
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "1"}, {"role": "assistant", "content": "2"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "3"}, {"role": "assistant", "content": "4"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "-3"}, {"role": "assistant", "content": "-2"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "twenty two"}, {"role": "assistant", "content": "twenty three"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "two hundred"}, {"role": "assistant", "content": "two hundred one"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "ninety nine"}, {"role": "assistant", "content": "one hundred"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "8"}, {"role": "assistant", "content": "9"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "-98"}, {"role": "assistant", "content": "-97"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "1,000"}, {"role": "assistant", "content": "1,001"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "10,100,000"}, {"role": "assistant", "content": "10,100,001"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "thirteen"}, {"role": "assistant", "content": "fourteen"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "eighty"}, {"role": "assistant", "content": "eighty one"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "one"}, {"role": "assistant", "content": "two"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "three"}, {"role": "assistant", "content": "four"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "seven"}, {"role": "assistant", "content": "eight"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "0x0F"}, {"role": "assistant", "content": "0x10"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "0x1F"}, {"role": "assistant", "content": "0x20"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "0xFF"}, {"role": "assistant", "content": "0x100"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "0b1111"}, {"role": "assistant", "content": "0b10000"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "0b101"}, {"role": "assistant", "content": "0b110"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "A"}, {"role": "assistant", "content": "B"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Z"}, {"role": "assistant", "content": "AA"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "AZ"}, {"role": "assistant", "content": "BA"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "IPv4: 192.168.0.255"}, {"role": "assistant", "content": "IPv4: 192.168.1.0"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Version 2.9.9"}, {"role": "assistant", "content": "Version 3.0.0"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Version 1.2.3"}, {"role": "assistant", "content": "Version 1.2.4"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "ASCII: 65"}, {"role": "assistant", "content": "ASCII: 66"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Unicode: U+1F600"}, {"role": "assistant", "content": "Unicode: U+1F601"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Fibonacci: 5, 8, 13"}, {"role": "assistant", "content": "Fibonacci: 21"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Prime: 17, 19, 23"}, {"role": "assistant", "content": "Prime: 29"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "1/4"}, {"role": "assistant", "content": "1/3"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Do"}, {"role": "assistant", "content": "Re"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Ti"}, {"role": "assistant", "content": "Do"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "C Major"}, {"role": "assistant", "content": "G Major"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Element: H"}, {"role": "assistant", "content": "Element: He"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Element: Li"}, {"role": "assistant", "content": "Element: Be"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "H2O"}, {"role": "assistant", "content": "H2O2"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Private"}, {"role": "assistant", "content": "Corporal"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Captain"}, {"role": "assistant", "content": "Major"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Chess: e4"}, {"role": "assistant", "content": "Chess: e5"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Poker: Jack"}, {"role": "assistant", "content": "Poker: Queen"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Roman: IV"}, {"role": "assistant", "content": "Roman: V"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Roman: IX"}, {"role": "assistant", "content": "Roman: X"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Color: #FF0000"}, {"role": "assistant", "content": "Color: #FF0001"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Color: #FFFFFE"}, {"role": "assistant", "content": "Color: #FFFFFF"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "MAC: 00:1A:2B:3C:4D:4F"}, {"role": "assistant", "content": "MAC: 00:1A:2B:3C:4D:50"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Base64: YQ=="}, {"role": "assistant", "content": "Base64: Yg=="}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "HTTP 404"}, {"role": "assistant", "content": "HTTP 405"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Qing Dynasty"}, {"role": "assistant", "content": "Republic of China"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Windows 10"}, {"role": "assistant", "content": "Windows 11"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "iPhone 13"}, {"role": "assistant", "content": "iPhone 14"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Python 3.9"}, {"role": "assistant", "content": "Python 3.10"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "SQL Server 2019"}, {"role": "assistant", "content": "SQL Server 2022"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "1"}, {"role": "assistant", "content": "2"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "3"}, {"role": "assistant", "content": "4"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "-3"}, {"role": "assistant", "content": "-2"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "twenty two"}, {"role": "assistant", "content": "twenty three"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "two hundred"}, {"role": "assistant", "content": "two hundred one"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "ninety nine"}, {"role": "assistant", "content": "one hundred"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "8"}, {"role": "assistant", "content": "9"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "-98"}, {"role": "assistant", "content": "-97"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "1,000"}, {"role": "assistant", "content": "1,001"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "10,100,000"}, {"role": "assistant", "content": "10,100,001"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "thirteen"}, {"role": "assistant", "content": "fourteen"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "eighty"}, {"role": "assistant", "content": "eighty one"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "one"}, {"role": "assistant", "content": "two"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "three"}, {"role": "assistant", "content": "four"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "seven"}, {"role": "assistant", "content": "eight"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "0x0F"}, {"role": "assistant", "content": "0x10"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "0x1F"}, {"role": "assistant", "content": "0x20"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "0xFF"}, {"role": "assistant", "content": "0x100"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "0b1111"}, {"role": "assistant", "content": "0b10000"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "0b101"}, {"role": "assistant", "content": "0b110"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "A"}, {"role": "assistant", "content": "B"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Z"}, {"role": "assistant", "content": "AA"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "AZ"}, {"role": "assistant", "content": "BA"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "IPv4: 192.168.0.255"}, {"role": "assistant", "content": "IPv4: 192.168.1.0"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Version 2.9.9"}, {"role": "assistant", "content": "Version 3.0.0"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Version 1.2.3"}, {"role": "assistant", "content": "Version 1.2.4"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "ASCII: 65"}, {"role": "assistant", "content": "ASCII: 66"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Unicode: U+1F600"}, {"role": "assistant", "content": "Unicode: U+1F601"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Fibonacci: 5, 8, 13"}, {"role": "assistant", "content": "Fibonacci: 21"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Prime: 17, 19, 23"}, {"role": "assistant", "content": "Prime: 29"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "1/4"}, {"role": "assistant", "content": "1/3"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Do"}, {"role": "assistant", "content": "Re"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Ti"}, {"role": "assistant", "content": "Do"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "C Major"}, {"role": "assistant", "content": "G Major"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Element: H"}, {"role": "assistant", "content": "Element: He"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Element: Li"}, {"role": "assistant", "content": "Element: Be"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "H2O"}, {"role": "assistant", "content": "H2O2"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Private"}, {"role": "assistant", "content": "Corporal"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Captain"}, {"role": "assistant", "content": "Major"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Chess: e4"}, {"role": "assistant", "content": "Chess: e5"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Poker: Jack"}, {"role": "assistant", "content": "Poker: Queen"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Roman: IV"}, {"role": "assistant", "content": "Roman: V"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Roman: IX"}, {"role": "assistant", "content": "Roman: X"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Color: #FF0000"}, {"role": "assistant", "content": "Color: #FF0001"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Color: #FFFFFE"}, {"role": "assistant", "content": "Color: #FFFFFF"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "MAC: 00:1A:2B:3C:4D:4F"}, {"role": "assistant", "content": "MAC: 00:1A:2B:3C:4D:50"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Base64: YQ=="}, {"role": "assistant", "content": "Base64: Yg=="}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "HTTP 404"}, {"role": "assistant", "content": "HTTP 405"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Qing Dynasty"}, {"role": "assistant", "content": "Republic of China"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Windows 10"}, {"role": "assistant", "content": "Windows 11"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "iPhone 13"}, {"role": "assistant", "content": "iPhone 14"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Python 3.9"}, {"role": "assistant", "content": "Python 3.10"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "SQL Server 2019"}, {"role": "assistant", "content": "SQL Server 2022"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Octal: 0o7"}, {"role": "assistant", "content": "Octal: 0o10"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "MD5: d41d8cd98f00b204e9800998ecf8427e"}, {"role": "assistant", "content": "MD5: d41d8cd98f00b204e9800998ecf8427f"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Java 17"}, {"role": "assistant", "content": "Java 18"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "C++ 17"}, {"role": "assistant", "content": "C++ 20"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Ubuntu 22.04"}, {"role": "assistant", "content": "Ubuntu 22.10"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Arithmetic: 2, 4, 6, 8"}, {"role": "assistant", "content": "Arithmetic: 10"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Geometric: 3, 6, 12, 24"}, {"role": "assistant", "content": "Geometric: 48"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Square: 1, 4, 9, 16"}, {"role": "assistant", "content": "Square: 25"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Cube: 1, 8, 27"}, {"role": "assistant", "content": "Cube: 64"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Triangle: 1, 3, 6, 10"}, {"role": "assistant", "content": "Triangle: 15"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Mi"}, {"role": "assistant", "content": "Fa"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Sol"}, {"role": "assistant", "content": "La"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "A Minor"}, {"role": "assistant", "content": "E Minor"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "F# Major"}, {"role": "assistant", "content": "C# Major"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Tempo: Allegro"}, {"role": "assistant", "content": "Tempo: Presto"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Element: Na"}, {"role": "assistant", "content": "Element: Mg"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Element: Cl"}, {"role": "assistant", "content": "Element: Ar"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "CH4"}, {"role": "assistant", "content": "C2H6"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "NaCl"}, {"role": "assistant", "content": "MgCl2"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "pH: 6"}, {"role": "assistant", "content": "pH: 7"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Unit: mm"}, {"role": "assistant", "content": "Unit: cm"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Unit: mg"}, {"role": "assistant", "content": "Unit: g"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Unit: mL"}, {"role": "assistant", "content": "Unit: L"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Temperature: 0°C"}, {"role": "assistant", "content": "Temperature: 273.15K"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Speed: 1 m/s"}, {"role": "assistant", "content": "Speed: 3.6 km/h"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "B"}, {"role": "assistant", "content": "C"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Y"}, {"role": "assistant", "content": "Z"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Hello"}, {"role": "assistant", "content": "World"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Open"}, {"role": "assistant", "content": "Close"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "First"}, {"role": "assistant", "content": "Second"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Pinyin: a"}, {"role": "assistant", "content": "Pinyin: o"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Pinyin: bo"}, {"role": "assistant", "content": "Pinyin: po"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "汉字: 一"}, {"role": "assistant", "content": "汉字: 二"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "汉字: 天"}, {"role": "assistant", "content": "汉字: 地"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "成语: 一心一意"}, {"role": "assistant", "content": "成语: 二话不说"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Lieutenant"}, {"role": "assistant", "content": "Captain"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Colonel"}, {"role": "assistant", "content": "Brigadier General"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Sergeant"}, {"role": "assistant", "content": "Staff Sergeant"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Weapon: Pistol"}, {"role": "assistant", "content": "Weapon: Rifle"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Weapon: Tank"}, {"role": "assistant", "content": "Weapon: Artillery"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Assistant Professor"}, {"role": "assistant", "content": "Associate Professor"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Junior Developer"}, {"role": "assistant", "content": "Senior Developer"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Manager"}, {"role": "assistant", "content": "Director"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Bachelor's Degree"}, {"role": "assistant", "content": "Master's Degree"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "CEO"}, {"role": "assistant", "content": "Chairman"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Chess: Qd1"}, {"role": "assistant", "content": "Chess: Qd8"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Poker: 10"}, {"role": "assistant", "content": "Poker: Jack"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Poker: King"}, {"role": "assistant", "content": "Poker: Ace"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Mahjong: 一筒"}, {"role": "assistant", "content": "Mahjong: 二筒"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Go: 3-3 point"}, {"role": "assistant", "content": "Go: 4-4 point"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Score: 1-0"}, {"role": "assistant", "content": "Score: 2-0"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Rank: 3rd"}, {"role": "assistant", "content": "Rank: 2nd"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Quarter"}, {"role": "assistant", "content": "Semifinal"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Bronze Medal"}, {"role": "assistant", "content": "Silver Medal"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "World Cup 2018"}, {"role": "assistant", "content": "World Cup 2022"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Ming Dynasty"}, {"role": "assistant", "content": "Qing Dynasty"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "World War I"}, {"role": "assistant", "content": "World War II"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "19th Century"}, {"role": "assistant", "content": "20th Century"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Renaissance"}, {"role": "assistant", "content": "Enlightenment"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Stone Age"}, {"role": "assistant", "content": "Bronze Age"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Country: France"}, {"role": "assistant", "content": "Country: Germany"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Capital: Paris"}, {"role": "assistant", "content": "Capital: Berlin"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Continent: Europe"}, {"role": "assistant", "content": "Continent: Asia"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Ocean: Atlantic"}, {"role": "assistant", "content": "Ocean: Pacific"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Planet: Earth"}, {"role": "assistant", "content": "Planet: Mars"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Currency: USD"}, {"role": "assistant", "content": "Currency: EUR"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Stock: AAPL"}, {"role": "assistant", "content": "Stock: MSFT"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Crypto: BTC"}, {"role": "assistant", "content": "Crypto: ETH"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Bank: Chase"}, {"role": "assistant", "content": "Bank: Wells Fargo"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Index: S&P 500"}, {"role": "assistant", "content": "Index: Nasdaq"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Monday"}, {"role": "assistant", "content": "Tuesday"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "January"}, {"role": "assistant", "content": "February"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "2023"}, {"role": "assistant", "content": "2024"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Spring"}, {"role": "assistant", "content": "Summer"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "AM"}, {"role": "assistant", "content": "PM"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "RGB: 255,0,0"}, {"role": "assistant", "content": "RGB: 0,255,0"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "CMYK: 0,100,100,0"}, {"role": "assistant", "content": "CMYK: 100,0,100,0"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Font: Arial"}, {"role": "assistant", "content": "Font: Helvetica"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Paper: A4"}, {"role": "assistant", "content": "Paper: A3"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Resolution: 720p"}, {"role": "assistant", "content": "Resolution: 1080p"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Disease: Cold"}, {"role": "assistant", "content": "Disease: Flu"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Vitamin A"}, {"role": "assistant", "content": "Vitamin B"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Blood Type: A"}, {"role": "assistant", "content": "Blood Type: B"}]}
+{"messages": [{"role": "system", "content": "You are a helpful assistant"}, {"role": "user", "content": "Bone: Radius"}, {"role": "assistant", "content": "Bone: Ulna"}]}

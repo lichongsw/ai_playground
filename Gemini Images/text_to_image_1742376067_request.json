@@ -1,0 +1,17 @@
+{
+  "contents": [
+    {
+      "parts": [
+        {
+          "text": "使用文生图模式，提示词: 使用文生图模式，提示词: 一只漂亮的小花猫，脚掌部分的毛发是白色，像是穿了小白鞋一样"
+        }
+      ]
+    }
+  ],
+  "generationConfig": {
+    "responseModalities": [
+      "Text",
+      "Image"
+    ]
+  }
+}
