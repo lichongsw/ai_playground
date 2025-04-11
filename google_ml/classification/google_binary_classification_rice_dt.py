@@ -61,9 +61,13 @@ else:
 # @title 数据准备
 # 选择特征和目标变量
 # 使用原始神经网络代码中选择的以及其他所有数值特征
+# features = [
+#     'Area', 'Perimeter', 'Major_Axis_Length', 'Minor_Axis_Length',
+#     'Eccentricity', 'Convex_Area', 'Extent'
+# ]
+# 与模型google_binary_classification_rice.py中选择的特征一致
 features = [
-    'Area', 'Perimeter', 'Major_Axis_Length', 'Minor_Axis_Length',
-    'Eccentricity', 'Convex_Area', 'Extent'
+    'Area', 'Major_Axis_Length', 'Eccentricity'
 ]
 target = 'Class' # 目标列名
 
@@ -108,11 +112,12 @@ print(f"测试集大小: {X_test.shape[0]} 样本 ({len(X_test)/len(rice_dataset
 # 可以调整超参数以优化性能或控制复杂度，防止过拟合
 # 例如：尝试不同的 max_depth, min_samples_split, min_samples_leaf, criterion ('gini' or 'entropy')
 dt_classifier = DecisionTreeClassifier(
-    max_depth=5,          # 限制树的最大深度为 5 (可调)
+    max_depth=6,          # 限制树的最大深度为 6 (可调)
     min_samples_split=20, # 节点至少包含 20 个样本才能分裂 (可调)
     min_samples_leaf=10,  # 叶节点至少包含 10 个样本 (可调)
     random_state=42,      # 保证结果可复现
-    criterion='gini'      # 分裂标准，也可尝试 'entropy'
+    criterion='gini'      # 信息增益分裂标准，也可尝试 'entropy'
+    # criterion='entropy' # 使用熵作为分裂标准
 )
 
 # 2. 训练模型
@@ -171,7 +176,8 @@ except Exception as e:
 # 如果树很深，可视化可能会变得复杂和难以阅读
 print(f"\n尝试可视化训练好的决策树 (max_depth={dt_classifier.max_depth})...")
 try:
-    plt.figure(figsize=(25, 15)) # 设置较大的图形尺寸以便看清细节
+    # Increase figure height significantly and slightly decrease font size
+    plt.figure(figsize=(30, 25)) # Increased height from 15 to 25, width from 25 to 30
     plot_tree(
         dt_classifier,
         feature_names=features,       # 特征名称
@@ -180,9 +186,9 @@ try:
         rounded=True,                 # 节点框使用圆角
         proportion=False,             # 显示样本数量而非比例
         impurity=True,                # 显示节点的基尼不纯度/熵
-        fontsize=10                   # 调整字体大小
+        fontsize=8                    # Decreased font size from 10 to 8
     )
-    plt.title(f"决策树可视化 (max_depth={dt_classifier.max_depth})", fontsize=16)
+    plt.title(f"决策树可视化 (max_depth={dt_classifier.max_depth})", fontsize=14) # Adjusted title fontsize
     # 可以取消注释下一行来保存图像到文件
     # tree_image_filename = "decision_tree_rice_visualization.png"
     # plt.savefig(tree_image_filename, dpi=300, bbox_inches='tight')
