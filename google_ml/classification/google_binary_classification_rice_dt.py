@@ -15,6 +15,9 @@ from sklearn.preprocessing import LabelEncoder
 import matplotlib.pyplot as plt
 import seaborn as sns # 用于更美观的混淆矩阵可视化
 import os # 导入 os 模块检查文件
+import numpy as np
+import json
+from graphviz import Digraph
 
 # Configure matplotlib to use a font that supports Chinese characters
 # Try 'SimHei' first, commonly available on Windows
@@ -108,9 +111,199 @@ print(f"测试集大小: {X_test.shape[0]} 样本 ({len(X_test)/len(rice_dataset
 
 # @title 创建、训练和评估决策树模型
 
+def calculate_gini(y):
+    """计算基尼不纯度"""
+    if len(y) == 0:
+        return 0
+    p = np.bincount(y) / len(y)
+    return 1 - np.sum(p ** 2)
+
+class TreeNode:
+    """决策树节点类，用于构建树结构"""
+    def __init__(self, depth, position, samples, gini, class_counts):
+        self.depth = depth
+        self.position = position
+        self.samples = samples
+        self.gini = gini
+        self.class_counts = class_counts
+        self.feature = None
+        self.threshold = None
+        self.gain = None
+        self.left = None
+        self.right = None
+
+def find_best_split(X, y, feature_names, depth=0, position=0, max_depth=5):
+    """找到最佳的分裂特征和分裂点"""
+    n_samples, n_features = X.shape
+    best_gini = float('inf')
+    best_feature = None
+    best_threshold = None
+    
+    # 计算当前节点的基尼不纯度
+    current_gini = calculate_gini(y)
+    class_counts = np.bincount(y)
+    
+    # 创建当前节点
+    node = TreeNode(depth, position, n_samples, current_gini, class_counts.tolist())
+    
+    indent = "    " * depth
+    print(f"\n{indent}[层数={depth}, 位置={position}] 节点信息:")
+    print(f"{indent}样本数量: {n_samples}")
+    print(f"{indent}当前基尼不纯度: {current_gini:.4f}")
+    print(f"{indent}类别分布: {class_counts}")
+    
+    if depth >= max_depth or current_gini == 0 or n_samples < 20:
+        print(f"{indent}停止分裂: " + (
+            "达到最大深度" if depth >= max_depth else
+            "节点已纯净" if current_gini == 0 else
+            "样本数量不足"
+        ))
+        return node
+    
+    best_gain = 0.0
+    
+    for feature_idx in range(n_features):
+        feature_name = feature_names[feature_idx]
+        feature_values = X[:, feature_idx]
+        thresholds = np.unique(feature_values)
+        
+        for threshold in thresholds:
+            left_mask = feature_values <= threshold
+            right_mask = ~left_mask
+            
+            if np.sum(left_mask) < 10 or np.sum(right_mask) < 10:
+                continue
+            
+            gini_left = calculate_gini(y[left_mask])
+            gini_right = calculate_gini(y[right_mask])
+            
+            n_left = np.sum(left_mask)
+            n_right = np.sum(right_mask)
+            gini_split = (n_left * gini_left + n_right * gini_right) / n_samples
+            
+            gain = current_gini - gini_split
+            
+            if gini_split < best_gini:
+                best_gini = gini_split
+                best_feature = feature_idx
+                best_threshold = threshold
+                best_gain = gain
+    
+    if best_feature is not None:
+        print(f"{indent}最佳分裂:")
+        print(f"{indent}特征: {feature_names[best_feature]}")
+        print(f"{indent}阈值: {best_threshold:.3f}")
+        print(f"{indent}基尼不纯度减少: {best_gain:.4f}")
+        
+        # 更新节点信息
+        node.feature = feature_names[best_feature]
+        node.threshold = best_threshold
+        node.gain = best_gain
+    
+    return node
+
+def grow_tree(X, y, feature_names, depth=0, position=0, max_depth=5):
+    """递归生长决策树，返回根节点"""
+    node = find_best_split(X, y, feature_names, depth, position, max_depth)
+    
+    if node.feature is None:
+        return node
+    
+    # 根据最佳分裂将数据分成左右子集
+    feature_idx = feature_names.index(node.feature)
+    feature_values = X[:, feature_idx]
+    left_mask = feature_values <= node.threshold
+    right_mask = ~left_mask
+    
+    # 递归处理左子树
+    X_left = X[left_mask]
+    y_left = y[left_mask]
+    node.left = grow_tree(X_left, y_left, feature_names, depth + 1, position * 2, max_depth)
+    
+    # 递归处理右子树
+    X_right = X[right_mask]
+    y_right = y[right_mask]
+    node.right = grow_tree(X_right, y_right, feature_names, depth + 1, position * 2 + 1, max_depth)
+    
+    return node
+
+def export_to_dot(root, filename='decision_tree.dot'):
+    """将决策树导出为DOT格式"""
+    dot = Digraph(comment='Decision Tree')
+    dot.attr(rankdir='TB')
+    
+    def add_nodes_edges(node, parent_id=None):
+        if node is None:
+            return
+        
+        # 创建节点标签
+        node_id = f"node_{node.depth}_{node.position}"
+        if node.feature is not None:
+            label = f"特征: {node.feature}\\n阈值: {node.threshold:.3f}\\n"
+        else:
+            label = "叶节点\\n"
+        label += f"基尼: {node.gini:.3f}\\n样本: {node.samples}\\n分布: {node.class_counts}"
+        
+        # 添加节点
+        dot.node(node_id, label)
+        
+        # 添加边
+        if parent_id is not None:
+            dot.edge(parent_id, node_id)
+        
+        # 递归处理子节点
+        if node.left:
+            add_nodes_edges(node.left, node_id)
+        if node.right:
+            add_nodes_edges(node.right, node_id)
+    
+    add_nodes_edges(root)
+    dot.render(filename, view=False, format='svg')
+    print(f"决策树已导出为 {filename}.svg")
+
+def export_to_json(root, filename='decision_tree.json'):
+    """将决策树导出为JSON格式"""
+    def node_to_dict(node):
+        if node is None:
+            return None
+        
+        return {
+            'depth': node.depth,
+            'position': node.position,
+            'samples': node.samples,
+            'gini': node.gini,
+            'class_counts': node.class_counts,
+            'feature': node.feature,
+            'threshold': node.threshold,
+            'gain': node.gain,
+            'left': node_to_dict(node.left),
+            'right': node_to_dict(node.right)
+        }
+    
+    tree_dict = node_to_dict(root)
+    with open(filename, 'w', encoding='utf-8') as f:
+        json.dump(tree_dict, f, ensure_ascii=False, indent=2)
+    print(f"决策树已导出为 {filename}")
+
+# 在训练决策树之前，先通过递归方式分析整个树的生长过程
+print("\n开始分析决策树的生长过程...")
+X_train_array = X_train.to_numpy()
+max_depth = 5  # 设置最大深度
+
+# 生成决策树并导出可视化文件
+root = grow_tree(X_train_array, y_train, features, max_depth=max_depth)
+export_to_dot(root, 'rice_decision_tree')
+export_to_json(root, 'rice_decision_tree.json')
+
+print("\n决策树生长过程分析完成，可视化文件已生成。")
+print("您可以使用以下工具查看决策树:")
+print("1. 使用浏览器打开 rice_decision_tree.svg 查看静态可视化")
+print("2. 将 rice_decision_tree.json 导入到在线可视化工具中查看交互式可视化")
+print("   推荐工具:")
+print("   - https://vega.github.io/editor/ (使用 Vega-Lite)")
+print("   - http://viz-js.com/ (用于查看 DOT 文件)")
+
 # 1. 创建决策树分类器实例
-# 可以调整超参数以优化性能或控制复杂度，防止过拟合
-# 例如：尝试不同的 max_depth, min_samples_split, min_samples_leaf, criterion ('gini' or 'entropy')
 dt_classifier = DecisionTreeClassifier(
     max_depth=6,          # 限制树的最大深度为 6 (可调)
     min_samples_split=20, # 节点至少包含 20 个样本才能分裂 (可调)

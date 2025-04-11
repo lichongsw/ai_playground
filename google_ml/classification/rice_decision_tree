@@ -1,0 +1,109 @@
+// Decision Tree
+digraph {
+	rankdir=TB
+	node_0_0 [label="特征: Major_Axis_Length\n阈值: 192.166\n基尼: 0.490\n样本: 3048\n分布: [1304, 1744]"]
+	node_1_0 [label="特征: Major_Axis_Length\n阈值: 186.505\n基尼: 0.122\n样本: 1767\n分布: [115, 1652]"]
+	node_0_0 -> node_1_0
+	node_2_0 [label="特征: Major_Axis_Length\n阈值: 181.235\n基尼: 0.056\n样本: 1553\n分布: [45, 1508]"]
+	node_1_0 -> node_2_0
+	node_3_0 [label="特征: Eccentricity\n阈值: 0.879\n基尼: 0.019\n样本: 1282\n分布: [12, 1270]"]
+	node_2_0 -> node_3_0
+	node_4_0 [label="特征: Area\n阈值: 12556.000\n基尼: 0.007\n样本: 897\n分布: [3, 894]"]
+	node_3_0 -> node_4_0
+	node_5_0 [label="叶节点\n基尼: 0.002\n样本: 823\n分布: [1, 822]"]
+	node_4_0 -> node_5_0
+	node_5_1 [label="叶节点\n基尼: 0.053\n样本: 74\n分布: [2, 72]"]
+	node_4_0 -> node_5_1
+	node_4_1 [label="特征: Area\n阈值: 11546.000\n基尼: 0.046\n样本: 385\n分布: [9, 376]"]
+	node_3_0 -> node_4_1
+	node_5_2 [label="叶节点\n基尼: 0.029\n样本: 340\n分布: [5, 335]"]
+	node_4_1 -> node_5_2
+	node_5_3 [label="叶节点\n基尼: 0.162\n样本: 45\n分布: [4, 41]"]
+	node_4_1 -> node_5_3
+	node_3_1 [label="特征: Eccentricity\n阈值: 0.903\n基尼: 0.214\n样本: 271\n分布: [33, 238]"]
+	node_2_0 -> node_3_1
+	node_4_2 [label="特征: Eccentricity\n阈值: 0.898\n基尼: 0.232\n样本: 239\n分布: [32, 207]"]
+	node_3_1 -> node_4_2
+	node_5_4 [label="叶节点\n基尼: 0.197\n样本: 217\n分布: [24, 193]"]
+	node_4_2 -> node_5_4
+	node_5_5 [label="叶节点\n基尼: 0.463\n样本: 22\n分布: [8, 14]"]
+	node_4_2 -> node_5_5
+	node_4_3 [label="特征: Eccentricity\n阈值: 0.912\n基尼: 0.061\n样本: 32\n分布: [1, 31]"]
+	node_3_1 -> node_4_3
+	node_5_6 [label="叶节点\n基尼: 0.000\n样本: 22\n分布: [0, 22]"]
+	node_4_3 -> node_5_6
+	node_5_7 [label="叶节点\n基尼: 0.180\n样本: 10\n分布: [1, 9]"]
+	node_4_3 -> node_5_7
+	node_2_1 [label="特征: Major_Axis_Length\n阈值: 189.501\n基尼: 0.440\n样本: 214\n分布: [70, 144]"]
+	node_1_0 -> node_2_1
+	node_3_2 [label="特征: Major_Axis_Length\n阈值: 186.760\n基尼: 0.342\n样本: 105\n分布: [23, 82]"]
+	node_2_1 -> node_3_2
+	node_4_4 [label="叶节点\n基尼: 0.480\n样本: 10\n分布: [4, 6]"]
+	node_3_2 -> node_4_4
+	node_4_5 [label="特征: Eccentricity\n阈值: 0.899\n基尼: 0.320\n样本: 95\n分布: [19, 76]"]
+	node_3_2 -> node_4_5
+	node_5_10 [label="叶节点\n基尼: 0.375\n样本: 64\n分布: [16, 48]"]
+	node_4_5 -> node_5_10
+	node_5_11 [label="叶节点\n基尼: 0.175\n样本: 31\n分布: [3, 28]"]
+	node_4_5 -> node_5_11
+	node_3_3 [label="特征: Major_Axis_Length\n阈值: 191.936\n基尼: 0.491\n样本: 109\n分布: [47, 62]"]
+	node_2_1 -> node_3_3
+	node_4_6 [label="特征: Major_Axis_Length\n阈值: 191.812\n基尼: 0.497\n样本: 97\n分布: [45, 52]"]
+	node_3_3 -> node_4_6
+	node_5_12 [label="叶节点\n基尼: 0.489\n样本: 87\n分布: [37, 50]"]
+	node_4_6 -> node_5_12
+	node_5_13 [label="叶节点\n基尼: 0.320\n样本: 10\n分布: [8, 2]"]
+	node_4_6 -> node_5_13
+	node_4_7 [label="叶节点\n基尼: 0.278\n样本: 12\n分布: [2, 10]"]
+	node_3_3 -> node_4_7
+	node_1_1 [label="特征: Major_Axis_Length\n阈值: 198.900\n基尼: 0.133\n样本: 1281\n分布: [1189, 92]"]
+	node_0_0 -> node_1_1
+	node_2_2 [label="特征: Area\n阈值: 13355.000\n基尼: 0.366\n样本: 278\n分布: [211, 67]"]
+	node_1_1 -> node_2_2
+	node_3_4 [label="特征: Major_Axis_Length\n阈值: 194.131\n基尼: 0.426\n样本: 182\n分布: [126, 56]"]
+	node_2_2 -> node_3_4
+	node_4_8 [label="特征: Eccentricity\n阈值: 0.893\n基尼: 0.494\n样本: 56\n分布: [31, 25]"]
+	node_3_4 -> node_4_8
+	node_5_16 [label="叶节点\n基尼: 0.488\n样本: 19\n分布: [8, 11]"]
+	node_4_8 -> node_5_16
+	node_5_17 [label="叶节点\n基尼: 0.470\n样本: 37\n分布: [23, 14]"]
+	node_4_8 -> node_5_17
+	node_4_9 [label="特征: Eccentricity\n阈值: 0.898\n基尼: 0.371\n样本: 126\n分布: [95, 31]"]
+	node_3_4 -> node_4_9
+	node_5_18 [label="叶节点\n基尼: 0.458\n样本: 31\n分布: [20, 11]"]
+	node_4_9 -> node_5_18
+	node_5_19 [label="叶节点\n基尼: 0.332\n样本: 95\n分布: [75, 20]"]
+	node_4_9 -> node_5_19
+	node_3_5 [label="特征: Eccentricity\n阈值: 0.884\n基尼: 0.203\n样本: 96\n分布: [85, 11]"]
+	node_2_2 -> node_3_5
+	node_4_10 [label="特征: Eccentricity\n阈值: 0.881\n基尼: 0.305\n样本: 48\n分布: [39, 9]"]
+	node_3_5 -> node_4_10
+	node_5_20 [label="叶节点\n基尼: 0.114\n样本: 33\n分布: [31, 2]"]
+	node_4_10 -> node_5_20
+	node_5_21 [label="叶节点\n基尼: 0.498\n样本: 15\n分布: [8, 7]"]
+	node_4_10 -> node_5_21
+	node_4_11 [label="特征: Area\n阈值: 13637.000\n基尼: 0.080\n样本: 48\n分布: [46, 2]"]
+	node_3_5 -> node_4_11
+	node_5_22 [label="叶节点\n基尼: 0.000\n样本: 28\n分布: [28]"]
+	node_4_11 -> node_5_22
+	node_5_23 [label="叶节点\n基尼: 0.180\n样本: 20\n分布: [18, 2]"]
+	node_4_11 -> node_5_23
+	node_2_3 [label="特征: Major_Axis_Length\n阈值: 206.057\n基尼: 0.049\n样本: 1003\n分布: [978, 25]"]
+	node_1_1 -> node_2_3
+	node_3_6 [label="特征: Area\n阈值: 13056.000\n基尼: 0.130\n样本: 358\n分布: [333, 25]"]
+	node_2_3 -> node_3_6
+	node_4_12 [label="特征: Area\n阈值: 12978.000\n基尼: 0.241\n样本: 57\n分布: [49, 8]"]
+	node_3_6 -> node_4_12
+	node_5_24 [label="叶节点\n基尼: 0.156\n样本: 47\n分布: [43, 4]"]
+	node_4_12 -> node_5_24
+	node_5_25 [label="叶节点\n基尼: 0.480\n样本: 10\n分布: [6, 4]"]
+	node_4_12 -> node_5_25
+	node_4_13 [label="特征: Area\n阈值: 14493.000\n基尼: 0.107\n样本: 301\n分布: [284, 17]"]
+	node_3_6 -> node_4_13
+	node_5_26 [label="叶节点\n基尼: 0.069\n样本: 224\n分布: [216, 8]"]
+	node_4_13 -> node_5_26
+	node_5_27 [label="叶节点\n基尼: 0.206\n样本: 77\n分布: [68, 9]"]
+	node_4_13 -> node_5_27
+	node_3_7 [label="叶节点\n基尼: 0.000\n样本: 645\n分布: [645]"]
+	node_2_3 -> node_3_7
+}

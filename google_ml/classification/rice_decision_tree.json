@@ -1,0 +1,741 @@
+{
+	"depth": 0,
+	"position": 0,
+	"samples": 3048,
+	"gini": 0.489580534716625,
+	"class_counts": [
+		1304,
+		1744
+	],
+	"feature": "Major_Axis_Length",
+	"threshold": 192.165985107422,
+	"gain": 0.3630003345301896,
+	"left": {
+		"depth": 1,
+		"position": 0,
+		"samples": 1767,
+		"gini": 0.1216927709126221,
+		"class_counts": [
+			115,
+			1652
+		],
+		"feature": "Major_Axis_Length",
+		"threshold": 186.505126953125,
+		"gain": 0.01892098160102265,
+		"left": {
+			"depth": 2,
+			"position": 0,
+			"samples": 1553,
+			"gini": 0.056273112837708084,
+			"class_counts": [
+				45,
+				1508
+			],
+			"feature": "Major_Axis_Length",
+			"threshold": 181.234512329102,
+			"gain": 0.0036404981274460735,
+			"left": {
+				"depth": 3,
+				"position": 0,
+				"samples": 1282,
+				"gini": 0.018545515611576135,
+				"class_counts": [
+					12,
+					1270
+				],
+				"feature": "Eccentricity",
+				"threshold": 0.87920880317688,
+				"gain": 0.0001686405026926907,
+				"left": {
+					"depth": 4,
+					"position": 0,
+					"samples": 897,
+					"gini": 0.006666592096285173,
+					"class_counts": [
+						3,
+						894
+					],
+					"feature": "Area",
+					"threshold": 12556.0,
+					"gain": 0.00010085992434028662,
+					"left": {
+						"depth": 5,
+						"position": 0,
+						"samples": 823,
+						"gini": 0.0024271808825548913,
+						"class_counts": [
+							1,
+							822
+						],
+						"feature": null,
+						"threshold": null,
+						"gain": null,
+						"left": null,
+						"right": null
+					},
+					"right": {
+						"depth": 5,
+						"position": 1,
+						"samples": 74,
+						"gini": 0.0525931336742147,
+						"class_counts": [
+							2,
+							72
+						],
+						"feature": null,
+						"threshold": null,
+						"gain": null,
+						"left": null,
+						"right": null
+					}
+				},
+				"right": {
+					"depth": 4,
+					"position": 1,
+					"samples": 385,
+					"gini": 0.04566031371226176,
+					"class_counts": [
+						9,
+						376
+					],
+					"feature": "Area",
+					"threshold": 11546.0,
+					"gain": 0.001136079776263288,
+					"left": {
+						"depth": 5,
+						"position": 2,
+						"samples": 340,
+						"gini": 0.028979238754325065,
+						"class_counts": [
+							5,
+							335
+						],
+						"feature": null,
+						"threshold": null,
+						"gain": null,
+						"left": null,
+						"right": null
+					},
+					"right": {
+						"depth": 5,
+						"position": 3,
+						"samples": 45,
+						"gini": 0.1619753086419753,
+						"class_counts": [
+							4,
+							41
+						],
+						"feature": null,
+						"threshold": null,
+						"gain": null,
+						"left": null,
+						"right": null
+					}
+				}
+			},
+			"right": {
+				"depth": 3,
+				"position": 1,
+				"samples": 271,
+				"gini": 0.21388597649814134,
+				"class_counts": [
+					33,
+					238
+				],
+				"feature": "Eccentricity",
+				"threshold": 0.902895748615265,
+				"gain": 0.002194233534686646,
+				"left": {
+					"depth": 4,
+					"position": 2,
+					"samples": 239,
+					"gini": 0.23192871273262017,
+					"class_counts": [
+						32,
+						207
+					],
+					"feature": "Eccentricity",
+					"threshold": 0.897635221481323,
+					"gain": 0.010702510132413051,
+					"left": {
+						"depth": 5,
+						"position": 4,
+						"samples": 217,
+						"gini": 0.19673384442226416,
+						"class_counts": [
+							24,
+							193
+						],
+						"feature": null,
+						"threshold": null,
+						"gain": null,
+						"left": null,
+						"right": null
+					},
+					"right": {
+						"depth": 5,
+						"position": 5,
+						"samples": 22,
+						"gini": 0.4628099173553719,
+						"class_counts": [
+							8,
+							14
+						],
+						"feature": null,
+						"threshold": null,
+						"gain": null,
+						"left": null,
+						"right": null
+					}
+				},
+				"right": {
+					"depth": 4,
+					"position": 3,
+					"samples": 32,
+					"gini": 0.060546875,
+					"class_counts": [
+						1,
+						31
+					],
+					"feature": "Eccentricity",
+					"threshold": 0.91204708814621,
+					"gain": 0.004296875000000019,
+					"left": {
+						"depth": 5,
+						"position": 6,
+						"samples": 22,
+						"gini": 0.0,
+						"class_counts": [
+							0,
+							22
+						],
+						"feature": null,
+						"threshold": null,
+						"gain": null,
+						"left": null,
+						"right": null
+					},
+					"right": {
+						"depth": 5,
+						"position": 7,
+						"samples": 10,
+						"gini": 0.17999999999999994,
+						"class_counts": [
+							1,
+							9
+						],
+						"feature": null,
+						"threshold": null,
+						"gain": null,
+						"left": null,
+						"right": null
+					}
+				}
+			}
+		},
+		"right": {
+			"depth": 2,
+			"position": 1,
+			"samples": 214,
+			"gini": 0.44021311904969873,
+			"class_counts": [
+				70,
+				144
+			],
+			"feature": "Major_Axis_Length",
+			"threshold": 189.500991821289,
+			"gain": 0.022494897404528702,
+			"left": {
+				"depth": 3,
+				"position": 2,
+				"samples": 105,
+				"gini": 0.34213151927437635,
+				"class_counts": [
+					23,
+					82
+				],
+				"feature": "Major_Axis_Length",
+				"threshold": 186.760314941406,
+				"gain": 0.006893424036281293,
+				"left": {
+					"depth": 4,
+					"position": 4,
+					"samples": 10,
+					"gini": 0.48,
+					"class_counts": [
+						4,
+						6
+					],
+					"feature": null,
+					"threshold": null,
+					"gain": null,
+					"left": null,
+					"right": null
+				},
+				"right": {
+					"depth": 4,
+					"position": 5,
+					"samples": 95,
+					"gini": 0.31999999999999984,
+					"class_counts": [
+						19,
+						76
+					],
+					"feature": "Eccentricity",
+					"threshold": 0.898634791374207,
+					"gain": 0.010322580645161117,
+					"left": {
+						"depth": 5,
+						"position": 10,
+						"samples": 64,
+						"gini": 0.375,
+						"class_counts": [
+							16,
+							48
+						],
+						"feature": null,
+						"threshold": null,
+						"gain": null,
+						"left": null,
+						"right": null
+					},
+					"right": {
+						"depth": 5,
+						"position": 11,
+						"samples": 31,
+						"gini": 0.17481789802289294,
+						"class_counts": [
+							3,
+							28
+						],
+						"feature": null,
+						"threshold": null,
+						"gain": null,
+						"left": null,
+						"right": null
+					}
+				}
+			},
+			"right": {
+				"depth": 3,
+				"position": 3,
+				"samples": 109,
+				"gini": 0.49053110007575107,
+				"class_counts": [
+					47,
+					62
+				],
+				"feature": "Major_Axis_Length",
+				"threshold": 191.935974121094,
+				"gain": 0.017313154995515168,
+				"left": {
+					"depth": 4,
+					"position": 6,
+					"samples": 97,
+					"gini": 0.4973961101073441,
+					"class_counts": [
+						45,
+						52
+					],
+					"feature": "Major_Axis_Length",
+					"threshold": 191.811889648438,
+					"gain": 0.02596584585802547,
+					"left": {
+						"depth": 5,
+						"position": 12,
+						"samples": 87,
+						"gini": 0.48883604174924034,
+						"class_counts": [
+							37,
+							50
+						],
+						"feature": null,
+						"threshold": null,
+						"gain": null,
+						"left": null,
+						"right": null
+					},
+					"right": {
+						"depth": 5,
+						"position": 13,
+						"samples": 10,
+						"gini": 0.31999999999999984,
+						"class_counts": [
+							8,
+							2
+						],
+						"feature": null,
+						"threshold": null,
+						"gain": null,
+						"left": null,
+						"right": null
+					}
+				},
+				"right": {
+					"depth": 4,
+					"position": 7,
+					"samples": 12,
+					"gini": 0.2777777777777777,
+					"class_counts": [
+						2,
+						10
+					],
+					"feature": null,
+					"threshold": null,
+					"gain": null,
+					"left": null,
+					"right": null
+				}
+			}
+		}
+	},
+	"right": {
+		"depth": 1,
+		"position": 1,
+		"samples": 1281,
+		"gini": 0.13332187663204675,
+		"class_counts": [
+			1189,
+			92
+		],
+		"feature": "Major_Axis_Length",
+		"threshold": 198.899597167969,
+		"gain": 0.015867719914738343,
+		"left": {
+			"depth": 2,
+			"position": 2,
+			"samples": 278,
+			"gini": 0.3658454531338957,
+			"class_counts": [
+				211,
+				67
+			],
+			"feature": "Area",
+			"threshold": 13355.0,
+			"gain": 0.016861179014729444,
+			"left": {
+				"depth": 3,
+				"position": 4,
+				"samples": 182,
+				"gini": 0.42603550295857995,
+				"class_counts": [
+					126,
+					56
+				],
+				"feature": "Major_Axis_Length",
+				"threshold": 194.131317138672,
+				"gain": 0.01710911188933173,
+				"left": {
+					"depth": 4,
+					"position": 8,
+					"samples": 56,
+					"gini": 0.4942602040816326,
+					"class_counts": [
+						31,
+						25
+					],
+					"feature": "Eccentricity",
+					"threshold": 0.893493056297302,
+					"gain": 0.018035859436235313,
+					"left": {
+						"depth": 5,
+						"position": 16,
+						"samples": 19,
+						"gini": 0.48753462603878117,
+						"class_counts": [
+							8,
+							11
+						],
+						"feature": null,
+						"threshold": null,
+						"gain": null,
+						"left": null,
+						"right": null
+					},
+					"right": {
+						"depth": 5,
+						"position": 17,
+						"samples": 37,
+						"gini": 0.47041636230825423,
+						"class_counts": [
+							23,
+							14
+						],
+						"feature": null,
+						"threshold": null,
+						"gain": null,
+						"left": null,
+						"right": null
+					}
+				},
+				"right": {
+					"depth": 4,
+					"position": 9,
+					"samples": 126,
+					"gini": 0.371000251952633,
+					"class_counts": [
+						95,
+						31
+					],
+					"feature": "Eccentricity",
+					"threshold": 0.898478507995606,
+					"gain": 0.007726476115189951,
+					"left": {
+						"depth": 5,
+						"position": 18,
+						"samples": 31,
+						"gini": 0.4578563995837669,
+						"class_counts": [
+							20,
+							11
+						],
+						"feature": null,
+						"threshold": null,
+						"gain": null,
+						"left": null,
+						"right": null
+					},
+					"right": {
+						"depth": 5,
+						"position": 19,
+						"samples": 95,
+						"gini": 0.3324099722991689,
+						"class_counts": [
+							75,
+							20
+						],
+						"feature": null,
+						"threshold": null,
+						"gain": null,
+						"left": null,
+						"right": null
+					}
+				}
+			},
+			"right": {
+				"depth": 3,
+				"position": 5,
+				"samples": 96,
+				"gini": 0.20290798611111116,
+				"class_counts": [
+					85,
+					11
+				],
+				"feature": "Eccentricity",
+				"threshold": 0.884250283241272,
+				"gain": 0.010633680555555691,
+				"left": {
+					"depth": 4,
+					"position": 10,
+					"samples": 48,
+					"gini": 0.3046875,
+					"class_counts": [
+						39,
+						9
+					],
+					"feature": "Eccentricity",
+					"threshold": 0.881100177764893,
+					"gain": 0.07084911616161618,
+					"left": {
+						"depth": 5,
+						"position": 20,
+						"samples": 33,
+						"gini": 0.1138659320477502,
+						"class_counts": [
+							31,
+							2
+						],
+						"feature": null,
+						"threshold": null,
+						"gain": null,
+						"left": null,
+						"right": null
+					},
+					"right": {
+						"depth": 5,
+						"position": 21,
+						"samples": 15,
+						"gini": 0.49777777777777776,
+						"class_counts": [
+							8,
+							7
+						],
+						"feature": null,
+						"threshold": null,
+						"gain": null,
+						"left": null,
+						"right": null
+					}
+				},
+				"right": {
+					"depth": 4,
+					"position": 11,
+					"samples": 48,
+					"gini": 0.07986111111111094,
+					"class_counts": [
+						46,
+						2
+					],
+					"feature": "Area",
+					"threshold": 13637.0,
+					"gain": 0.004861111111110969,
+					"left": {
+						"depth": 5,
+						"position": 22,
+						"samples": 28,
+						"gini": 0.0,
+						"class_counts": [
+							28
+						],
+						"feature": null,
+						"threshold": null,
+						"gain": null,
+						"left": null,
+						"right": null
+					},
+					"right": {
+						"depth": 5,
+						"position": 23,
+						"samples": 20,
+						"gini": 0.17999999999999994,
+						"class_counts": [
+							18,
+							2
+						],
+						"feature": null,
+						"threshold": null,
+						"gain": null,
+						"left": null,
+						"right": null
+					}
+				}
+			}
+		},
+		"right": {
+			"depth": 2,
+			"position": 3,
+			"samples": 1003,
+			"gini": 0.048607915038533456,
+			"class_counts": [
+				978,
+				25
+			],
+			"feature": "Major_Axis_Length",
+			"threshold": 206.056549072266,
+			"gain": 0.002238642966481498,
+			"left": {
+				"depth": 3,
+				"position": 6,
+				"samples": 358,
+				"gini": 0.1299116756655534,
+				"class_counts": [
+					333,
+					25
+				],
+				"feature": "Area",
+				"threshold": 13056.0,
+				"gain": 0.001883406994655612,
+				"left": {
+					"depth": 4,
+					"position": 12,
+					"samples": 57,
+					"gini": 0.24130501692828554,
+					"class_counts": [
+						49,
+						8
+					],
+					"feature": "Area",
+					"threshold": 12978.0,
+					"gain": 0.0286883689252993,
+					"left": {
+						"depth": 5,
+						"position": 24,
+						"samples": 47,
+						"gini": 0.1557265731100046,
+						"class_counts": [
+							43,
+							4
+						],
+						"feature": null,
+						"threshold": null,
+						"gain": null,
+						"left": null,
+						"right": null
+					},
+					"right": {
+						"depth": 5,
+						"position": 25,
+						"samples": 10,
+						"gini": 0.48,
+						"class_counts": [
+							6,
+							4
+						],
+						"feature": null,
+						"threshold": null,
+						"gain": null,
+						"left": null,
+						"right": null
+					}
+				},
+				"right": {
+					"depth": 4,
+					"position": 13,
+					"samples": 301,
+					"gini": 0.10657719009723965,
+					"class_counts": [
+						284,
+						17
+					],
+					"feature": "Area",
+					"threshold": 14493.0,
+					"gain": 0.002508501310942962,
+					"left": {
+						"depth": 5,
+						"position": 26,
+						"samples": 224,
+						"gini": 0.06887755102040805,
+						"class_counts": [
+							216,
+							8
+						],
+						"feature": null,
+						"threshold": null,
+						"gain": null,
+						"left": null,
+						"right": null
+					},
+					"right": {
+						"depth": 5,
+						"position": 27,
+						"samples": 77,
+						"gini": 0.20644290774160912,
+						"class_counts": [
+							68,
+							9
+						],
+						"feature": null,
+						"threshold": null,
+						"gain": null,
+						"left": null,
+						"right": null
+					}
+				}
+			},
+			"right": {
+				"depth": 3,
+				"position": 7,
+				"samples": 645,
+				"gini": 0.0,
+				"class_counts": [
+					645
+				],
+				"feature": null,
+				"threshold": null,
+				"gain": null,
+				"left": null,
+				"right": null
+			}
+		}
+	}
+}
